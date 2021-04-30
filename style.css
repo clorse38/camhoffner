@@ -1,0 +1,142 @@
+body {
+    background-color:bisque;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#homepage {
+    text-align: center;
+    text-indent: 2em;
+    
+}
+
+#homepage img {
+    display: block;
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+header {
+    
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: lightsteelblue;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+a:hover {
+    background-color: white;
+    border-radius: 35%;
+    color: rgb(129, 168, 219);
+}
+
+.contact-info {
+    color: purple;
+    background-color: peachpuff;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align:center;
+    border-width: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#contact {
+    font-size: 32px;
+    text-align:center;
+    padding: 0px;
+    border-top: dotted;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+#description {
+    font-weight: 300;
+    color: purple;
+    background-color: peachpuff;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align:center;
+    border-width: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 25px;
+    text-indent: 50px;
+}
+
+#projects .gameboy img {
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+}
+
+#projects .container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.gameboy-description {
+    width: 200px;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: smaller;
+    color: purple;
+    background-color: peachpuff;
+    border-left-style: auto;
+    border-right-style: auto;
+    border-width: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 20px;
+}   
+
+#about {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 2em;
+}
+
+#yeah {
+    text-align: center;
+    padding: 50px;
+    color: purple;
+    background-color: peachpuff;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align:center;
+    border-width: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-top: purple dotted 2px;
+}
+
+
+img {
+    display: block;
+    border-radius: 70%;
+}
+
+ul {
+    margin-left: 10px;
+}
